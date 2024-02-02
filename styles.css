@@ -1,0 +1,57 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: url('logo.png') center/cover no-repeat; /* Substitua 'background-image.jpg' pelo caminho da sua imagem de fundo */
+    color: rgb(226, 46, 43);
+    padding: 10rem;
+    text-align: center;
+}
+
+nav ul {
+    font-weight: bold;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    font-weight: bold
+}
+
+a {
+    text-decoration: none;
+    color: rgb(167, 66, 66);
+}
+
+#banner {
+    background-color: #f0f0f0;
+    padding: 10rem;
+    text-align: center;
+}
+
+#servicos {
+    padding: 2rem;
+    text-align: center;
+}
+
+.centered-list {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.centered-list li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
